@@ -1,0 +1,48 @@
+* {
+    font-family: 'Merriweather', serif;
+    margin: auto auto;
+    background-color: #362735;
+}
+
+header {
+    padding-top: 2.5em;
+    box-sizing: border-box;
+    padding-bottom: 10.5rem;
+}
+
+ul {
+    display: flex;
+    overflow: hidden;
+    list-style: none;
+    font-size: 20px;
+}
+
+ul li {
+    /*margin: auto 0;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    overflow: hidden;
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+}
+
+.hero-quote {
+    align-content: center;
+    text-align: center;
+    padding-bottom: 55.5rem;
+}
+
+.hero-quote h1 {
+    font-size: 4rem;
+    padding-top: 10rem;
+}
+
+.portion-one {
+    display: flex;
+}
