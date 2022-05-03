@@ -1,26 +1,28 @@
 * {
     font-family: 'Merriweather', serif;
-    margin: auto auto;
     background-color: #362735;
 }
 
+/*Header start*/
 header {
     padding-top: 2.5em;
     box-sizing: border-box;
     padding-bottom: 10.5rem;
+    max-height: 70rem;
 }
 
-ul {
+.menu-links {
     display: flex;
     overflow: hidden;
     list-style: none;
     font-size: 20px;
 }
 
-ul li {
+.menu-links li {
     /*margin: auto 0;*/
     display: flex;
     justify-content: space-around;
+    margin: auto auto;
 }
 
 li {
@@ -30,19 +32,104 @@ li {
 a {
     background: transparent;
     text-decoration: none;
+    color: #9DDDC4;
 }
 
 .hero-quote {
     align-content: center;
     text-align: center;
-    padding-bottom: 55.5rem;
+    padding-bottom: 20.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .hero-quote h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     padding-top: 10rem;
+    color: #9dddc4;
 }
 
+/*Header end*/
+
+
+/*Index page Start*/
 .portion-one {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.personal-image {
+    margin-bottom: 14rem;
+    padding-bottom: 4rem;
+}
+
+.focus-goal-passion {
+    margin: auto auto;
+    height: 50rem;
+    width: 75rem;
+}
+
+.focus-goal-passion h2 {
+    font-size: 3rem;
+    color: #9DDDC4;
+}
+
+.focus-goal-passion p {
+    font-size: 2.5rem;
+    color: #9DDDC4;
+}
+
+.project-headline {
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    color: #9DDDC4;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.project-headline h3 {
+    font-size: 2rem;
+    padding-right: 26.5rem;
+}
+
+.project-headline p {
+    font-size: 1.5rem;
+}
+
+.row {
+    display: flex;
+    max-width: 1280vw;
+    justify-content: space-around;
+}
+
+.project-1-card {
+    box-shadow: 1px 3px 5px grey;
+    position: relative;
+    width: 1rem;
+}
+
+/*Index page end*/
+
+footer {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-menu-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-menu-links li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-page-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
