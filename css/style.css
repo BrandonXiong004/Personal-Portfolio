@@ -57,6 +57,7 @@ a {
 .portion-one {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 15rem;
 }
 
 .personal-image {
@@ -92,23 +93,39 @@ a {
 
 .project-headline h3 {
     font-size: 2rem;
-    padding-right: 26.5rem;
+    padding-right: 53.5rem;
 }
 
 .project-headline p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .row {
     display: flex;
     max-width: 1280vw;
     justify-content: space-around;
+    padding-bottom: 25rem;
+    padding-top: 5rem;
 }
 
 .project-1-card {
-    box-shadow: 1px 3px 5px grey;
     position: relative;
-    width: 1rem;
+    width: 37rem;
+    color: #9dddc4;
+}
+
+.project-1-img {
+    width: 37rem;
+}
+
+.project-2-img {
+    width: 37rem;
+}
+
+.project-2-card {
+    position: relative;
+    width: 31rem;
+    color: #9dddc4;
 }
 
 /*Index page end*/
@@ -133,3 +150,18 @@ footer {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.footer-page-links li {
+    justify-content: space-around;
+    margin: 0 1rem;
+}
+
+.footer-name-logo {
+    font-size: 3rem;
+}
+
+.copyright {
+    color: #9DDDC4;
+    text-align: center;
+}
+
