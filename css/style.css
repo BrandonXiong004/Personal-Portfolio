@@ -1,5 +1,8 @@
 * {
     font-family: 'Merriweather', serif;
+}
+
+body {
     background-color: #362735;
 }
 
@@ -35,6 +38,14 @@ a {
     color: #9DDDC4;
 }
 
+nav ul li{
+    z-index: 7;
+}
+
+.logo {
+    font-size: 1rem;
+}
+
 .hero-quote {
     align-content: center;
     text-align: center;
@@ -46,8 +57,27 @@ a {
 
 .hero-quote h1 {
     font-size: 5rem;
-    padding-top: 10rem;
     color: #9dddc4;
+}
+
+
+.header-header {
+    width: 100%;
+}
+
+.home-hero-video {
+    z-index: 5;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+header .hero-quote {
+    position: relative;
+    z-index: 6;
+    padding-top: 15rem;
 }
 
 /*Header end*/
@@ -58,11 +88,16 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding-top: 15rem;
+    height: 100%;
 }
 
 .personal-image {
     margin-bottom: 14rem;
     padding-bottom: 4rem;
+}
+
+.body-photo {
+    height: 36rem;
 }
 
 .focus-goal-passion {
@@ -79,6 +114,16 @@ a {
 .focus-goal-passion p {
     font-size: 2.5rem;
     color: #9DDDC4;
+}
+
+input {
+    color: #9DDDC4;
+    background-color: transparent;
+    border: 1px solid #E87F21;
+    font-size: 1.5rem;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    padding: 0.5rem;
 }
 
 .project-headline {

@@ -14,9 +14,7 @@
 </head>
 
 <body>
-    <header>
-        <div class="hero-section">
-            <div class="menu-bar">
+    <header class="header-container">
                 <nav class="menu-link-area">
                     <ul class="menu-links">
                         <li class="logo"><a href="index.html">BX</a></li>
@@ -26,12 +24,15 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
-        <section class="hero-quote">
+    <video loop muted autoplay preload="auto" class="home-hero-video">
+        <source src="videos/Pexels Videos 2699.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-quote">
             <h1>Aspiring Web Developer and</h1>
             <h1>Computer Scientist.</h1>
-        </section>
+    </div>
+            
     </header>
     <main>
         <section class="portion-one">
@@ -46,6 +47,9 @@
                     My focus is to achieve my Bachelor's of Science degree and pursue my passion of computers. If you
                     want to get to know me more, feel free to explore my portfolio and read about me today.
                 </p>
+                <form action="about.html">
+                    <input type="submit" value="Who am I? &rarr;" />
+                </form>
             </div>
         </section>
         <section class="project-headline">
@@ -62,26 +66,18 @@
                 <article class="project-1-card">
                     <img src="imgs/Interactive-story-snippet.JPG" alt="placeholder" class="project-1-img">
                     <div class="article-content-1">
-                    <h3>
-                        Interactive Story
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                    </p>
-                </div>
+                        <h3>
+                            Interactive Story
+                        </h3>
+                    </div>
                 </article>
             </a>
             <a href="tourism.html" class="tourismBtn">
                 <article class="project-2-card">
                     <img src="imgs/Triasia-Snippet.JPG" alt="placeholder" class="project-2-img">
                     <h3>
-                        Interactive Story
+                        TriAsia Tourism Website
                     </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                    </p>
                 </article>
             </a>
         </section>
