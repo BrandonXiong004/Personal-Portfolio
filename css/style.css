@@ -210,3 +210,45 @@ footer {
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1920px) {
+    header .hero-quote {
+        padding-top: 6rem;
+    }
+}
