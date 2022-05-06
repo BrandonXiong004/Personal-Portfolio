@@ -190,16 +190,7 @@ footer {
     justify-content: space-around;
 }
 
-.footer-page-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
-.footer-page-links li {
-    justify-content: space-around;
-    margin: 0 1rem;
-}
 
 .footer-name-logo {
     font-size: 3rem;
@@ -210,6 +201,11 @@ footer {
     text-align: center;
 }
 
+.email-telephone {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
 
 
