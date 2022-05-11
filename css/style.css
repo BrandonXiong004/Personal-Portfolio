@@ -150,7 +150,7 @@ input {
     display: flex;
     max-width: 1280vw;
     justify-content: space-around;
-    padding-bottom: 25rem;
+    padding-bottom: 55rem;
     padding-top: 5rem;
 }
 
@@ -185,7 +185,6 @@ article h3 {
 }
 
 .items {
-    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     user-select: none;
@@ -194,7 +193,7 @@ article h3 {
 .items .item {
     position: absolute;
     width: 20rem;
-    height: 25rem;
+    height: 39rem;
     overflow: hidden;
     transition: all 300ms ease-in-out;
     z-index: -1;
@@ -252,10 +251,10 @@ article h3 {
 .button-container .button:before {
     content: "";
     position: absolute;
-    transform: translate(-50%, 360%);
+    transform: translate(-205%, 650%);
     width: 5rem;
     height: 50px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 0, 0, 1);
     z-index: -99;
 }
 
@@ -267,6 +266,27 @@ article h3 {
     float: right;
 }
 
+.article-content-1 {
+    padding-top: 38rem;
+}
+
+.items h3 a {
+    color: #E87F21;
+    font-size: 30px;
+}
+
+.items a {
+    width: 1rem;
+}
+
+.project-2-card div h3 {
+    color: #9DDDC4;
+    font-size: 3rem;
+}
+
+.project-2-card div p {
+    font-size: 1rem;
+}
 /*Index page end*/
 
 .footer-container {
