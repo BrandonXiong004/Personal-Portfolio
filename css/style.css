@@ -85,7 +85,7 @@ nav ul li {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.7;
+    opacity: 0.55;
 }
 
 header .hero-quote {
@@ -305,7 +305,23 @@ article h3 {
 
 /*Works Page start*/
 .works-portion-one {
-    padding-top: 3rem;
+    padding-top: 25rem;
+}
+
+.works-portion-content {
+    margin: auto auto;
+    height: 50rem;
+    width: 75rem;
+}
+
+.works-portion-content h2 {
+    font-size: 3rem;
+    color: #9DDDC4;
+}
+
+.works-portion-content p {
+    font-size: 2.5rem;
+    color: #9DDDC4;
 }
 
 .row {
@@ -313,17 +329,31 @@ article h3 {
     max-width: 100%;
     margin: auto auto 5em;
     justify-content: space-around;
+    padding-bottom: 15rem;
 }
 
 .work{
     border-radius: 1em;
-    border: 1px solid black;
+    border: 0.5px solid black;
     position: relative;
     box-shadow: 1px 3px 5px grey;
+    width: 20vw;
+    background-color: #7867AF;
 }
 
 .work img {
     border-radius: 1em;
+    width: 20vw;
+    height: 17.5vw;
+}
+
+.work h4 {
+    color: #fff;
+    opacity: .8;
+}
+
+.work p {
+    color: #9DDDC4
 }
 
 /*Works Page end*/
