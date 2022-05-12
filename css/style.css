@@ -6,6 +6,10 @@ body {
     background-color: #362735;
 }
 
+main {
+    overflow: hidden;
+}
+
 /*Header start*/
 header {
     padding-top: 2.5em;
@@ -72,6 +76,16 @@ nav ul li {
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.works-hero-video {
+    z-index: 5;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
 }
 
 header .hero-quote {
@@ -146,7 +160,7 @@ input {
     font-size: 2.5rem;
 }
 
-.row {
+.work-carousel {
     display: flex;
     max-width: 1280vw;
     justify-content: space-around;
@@ -288,6 +302,31 @@ article h3 {
     font-size: 1rem;
 }
 /*Index page end*/
+
+/*Works Page start*/
+.works-portion-one {
+    padding-top: 3rem;
+}
+
+.row {
+    display: flex;
+    max-width: 100%;
+    margin: auto auto 5em;
+    justify-content: space-around;
+}
+
+.work{
+    border-radius: 1em;
+    border: 1px solid black;
+    position: relative;
+    box-shadow: 1px 3px 5px grey;
+}
+
+.work img {
+    border-radius: 1em;
+}
+
+/*Works Page end*/
 
 .footer-container {
     display: flex;
