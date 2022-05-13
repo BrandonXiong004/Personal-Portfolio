@@ -26,9 +26,6 @@ header {
 }
 
 .menu-links li {
-    /*margin: auto 0;*/
-    display: flex;
-    justify-content: space-around;
     margin: auto auto;
 }
 
@@ -44,6 +41,28 @@ a {
 
 nav ul li {
     z-index: 7;
+}
+
+.sub-menu-content {
+    display: none;
+}
+
+.dropdown:hover .sub-menu-content {
+    display: block;
+    position: absolute;
+    background-color: rgba(54, 39, 53, 0.75);
+    box-shadow: 0px 2px 8px #C7ADF6;
+}
+
+.sub-menu-content li {
+    display: block;
+    margin: 1.5rem;
+    width: 10rem;
+}
+
+ul .sub-menu-content li a:hover {
+    color: red;
+    background-color: #fff;
 }
 
 .logo {
@@ -86,6 +105,17 @@ nav ul li {
     top: 0;
     left: 0;
     opacity: 0.55;
+}
+
+.about-hero-image {
+    z-index: 6;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    height: 68.5rem;
+    background-attachment: fixed;
 }
 
 header .hero-quote {
@@ -301,6 +331,7 @@ article h3 {
 .project-2-card div p {
     font-size: 1rem;
 }
+
 /*Index page end*/
 
 /*Works Page start*/
@@ -332,7 +363,7 @@ article h3 {
     padding-bottom: 15rem;
 }
 
-.work{
+.work {
     border-radius: 1em;
     border: 0.5px solid black;
     position: relative;
@@ -354,6 +385,29 @@ article h3 {
 
 .work p {
     color: #9DDDC4
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10rem;
+}
+
+.about-me-text h2 {
+    color: #9DDDC4;
+    padding-left: 5rem;
+    font-size: 3rem;
+}
+
+.about-me-text p {
+    color: #9DDDC4;
+    max-width: 50%;
+    padding-left: 35rem;
+    font-size: 1.5rem;
+    overflow-y: scroll;
+    max-height: 39rem;
 }
 
 /*Works Page end*/
