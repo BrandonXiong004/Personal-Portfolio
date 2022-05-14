@@ -107,6 +107,16 @@ ul .sub-menu-content li a:hover {
     opacity: 0.55;
 }
 
+.hero-image {
+    z-index: 3;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .65;
+}
+
 .about-hero-image {
     z-index: 6;
     width: 100%;
@@ -141,7 +151,7 @@ header .hero-quote {
 }
 
 .body-photo {
-    height: 36rem;
+    height: 30rem;
 }
 
 .focus-goal-passion {
@@ -156,7 +166,7 @@ header .hero-quote {
 }
 
 .focus-goal-passion p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #9DDDC4;
 }
 
@@ -412,6 +422,49 @@ article h3 {
 
 /*Works Page end*/
 
+/*Samples Page Start*/
+.sample-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sample-1-image {
+    width: 55%;
+    height: 40rem;
+}
+
+.sample-portion-content {
+    margin: auto auto;
+    height: 50rem;
+    width: 100%;
+}
+
+.sample-portion-content h2 {
+    font-size: 2rem;
+    color: #9DDDC4;
+}
+
+.sample-portion-content p {
+    font-size: 1.5rem;
+    color: #9DDDC4;
+    overflow-y: scroll;
+    max-height: 32rem;
+}
+
+.sample-portion-one {
+    max-width: 50rem;
+}
+
+/*Samples Page End*/
+
+/*Resume Page Start*/
+.resume-portion-one {
+    padding-top: 45rem;
+}
+
+/*Resume Page End*/
 .footer-container {
     display: flex;
     flex-direction: row;
