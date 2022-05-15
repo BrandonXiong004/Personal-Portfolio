@@ -232,6 +232,7 @@ input {
 
 .project-2-card {
     position: relative;
+    left: 7rem;
 }
 
 article h3 {
@@ -340,6 +341,7 @@ article h3 {
 
 .project-2-card div p {
     font-size: 1rem;
+    color: #9DDDC4;
 }
 
 /*Index page end*/
