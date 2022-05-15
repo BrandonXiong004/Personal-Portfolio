@@ -9,86 +9,94 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="main.js"></script>
     <title>BX Web Portfolio</title>
 </head>
 
 <body>
     <header class="header-container">
-                <nav class="menu-link-area">
-                    <ul class="menu-links">
-                        <li class="logo"><a href="index.html">BX</a></li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="work.html">My Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+        <nav class="menu-link-area">
+            <ul class="menu-links">
+                <li class="logo"><a href="index.html">BX</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="work.html">My Work</a>
+                    <ul class="sub-menu-content">
+                        <li><a href="sample-1.html">Chronoshift Tour Website</a></li>
+                        <li><a href="sample-2.html">TriAsia Tourism Website</a></li>
+                        <li><a href="sample-3.html">JavaScript Simple Web Calculator</a></li>
+                        <li><a href="sample-4.html">Interactive Story</a></li>
                     </ul>
-                </nav>
-    <video loop muted autoplay preload="auto" class="home-hero-video">
-        <source src="videos/Pexels Videos 2699.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <div class="hero-quote">
+                </li>
+                <li class="dropdown">
+                    <a href="about.html">About</a>
+                    <ul class="sub-menu-content">
+                        <li><a href="awardachievement.html">Awards and Achievements</a></li>
+                    </ul>
+                </li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <video loop muted autoplay preload="auto" class="home-hero-video">
+            <source src="videos/Pexels Videos 2699.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-quote">
             <h1>Contact Today!</h1>
-    </div>
-            
+        </div>
+
     </header>
     <main>
-        <section class="portion-one">
-            <div class="personal-image">
-                <img src="imgs/PM_Ambassadors_21-22.jpg" class="body-photo" alt="CART Image">
-            </div>
-            <div class="focus-goal-passion">
-                <h2>My focus, goal, and passion.</h2>
-                <br>
+        <div class="contact-row">
+            <form class="contact-form">
+                <h1>Questions & Comments</h1>
                 <p>
-                    As an aspiring web developer, I want to pursue my goal into computer science with the time I have.
-                    My focus is to achieve my Bachelor's of Science degree and pursue my passion of computers. If you
-                    want to get to know me more, feel free to explore my portfolio and read about me today.
+                    Feel free to send me any questions or comments about myself, my work, and my portfolio. A friendly
+                    hello is also just fine!
                 </p>
-            </div>
-        </section>
-        <section class="project-headline">
-            <h3>
-                Latest Projects
-            </h3>
-            <br>
-            <p>
-                View my latest projects that I've created and worked on.
-            </p>
-        </section>
-        <section class="row">
-            <a href="interactive.html" class="interStoryBtn">
-                <article class="project-1-card">
-                    <img src="imgs/Interactive-story-snippet.JPG" alt="placeholder" class="project-1-img">
-                    <div class="article-content-1">
-                        <h3>
-                            Interactive Story
-                        </h3>
+                <p class="ask">Ask a question or send a comment with the button to the right.</p>
+            </form>
+            <a href="#" class="inquiry-button" id="inquiry-button">Open Form</a>
+        </div>
+
+        <div class="pop-up">
+            <div class="overlay">
+                <form id="window-form" onsubmit="event.preventDefault(); validateForm()">
+                    <label form="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <small class="error"></small>
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Your email">
+                    <small class="error"></small>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Your message" rows="6"></textarea>
+                    <small class="error"></small>
+
+                    <div class="center">
+                        <input type="submit" value="Send Message">
+                        <p id="success"></p>
                     </div>
-                </article>
-            </a>
-            <a href="tourism.html" class="tourismBtn">
-                <article class="project-2-card">
-                    <img src="imgs/Triasia-Snippet.JPG" alt="placeholder" class="project-2-img">
-                    <h3>
-                        TriAsia Tourism Website
-                    </h3>
-                </article>
-            </a>
-        </section>
+                    <div id="exit">
+                        <p>Exit</p>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-container">
             <a href="mailto:BrandonNXyooj@gmail.com" class="email">BrandonNXyooj@gmail.com</a>
             <a href="tel:+15593877127" class="telephone">(559) 387-7127</a>
-                <a href="index.html" class="footer-name-logo">BX</a>
+            <a href="index.html" class="footer-name-logo">BX</a>
             <br>
             <p class="copyright">
                 &#169; 2022 Brandon Xiong, All Rights Reserved. Digital Creator and Web Developer
             </p>
-            </div>
+        </div>
     </footer>
 </body>
+<script src="main.js"></script>
 
 </html>

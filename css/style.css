@@ -434,7 +434,64 @@ article h3 {
     max-height: 39rem;
 }
 
+.awrd-me-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10rem;
+}
+
+.awrd-me-text h2 {
+    color: #9DDDC4;
+    padding-left: 5rem;
+    font-size: 3rem;
+    width: 15%;
+}
+
+.awrd-me-text p {
+    color: #9DDDC4;
+    max-width: 50%;
+    padding-left: 35rem;
+    font-size: 1.5rem;
+    max-height: 39rem;
+}
+
+.award {
+    margin: auto auto;
+    border: 1px solid gold;
+    transform: translate(30rem, 0);
+}
+
 /*Works Page end*/
+
+/*About Page*/
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+.linkedin-content {
+    font-size: 2rem;
+}
+
+.linkedin {
+    color: #9DDDC4;
+}
+
+.linkedin-text {
+    color: #9DDDC4;
+}
+
+.post-secondary-text {
+    color: #9DDDC4;
+    padding-left: 5rem;
+    font-size: 2rem;
+    padding-bottom: 15rem;
+}
 
 /*Samples Page Start*/
 .sample-content {
@@ -471,14 +528,193 @@ article h3 {
     max-width: 50rem;
 }
 
+
+.calc-example {
+    max-height: 46.5rem;
+}
+
 /*Samples Page End*/
 
 /*Resume Page Start*/
-.resume-portion-one {
+.resume-container {
     padding-top: 45rem;
+    padding-bottom: 15rem;
+}
+
+hr {
+    width: 75%;
+}
+
+.resume-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+
+.row2 {
+    width: 100%;
+    margin-bottom: 1em;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    color: #9DDDC4;
+}
+
+.col2 {
+    color: #9DDDC4;
+}
+
+.col2 h5 {
+    font-weight: bold;
+}
+
+.col2 li {
+    overflow: visible;
+    color: #9DDDC4;
+}
+
+.resume-recommendations {
+    justify-content: space-between;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 10rem;
 }
 
 /*Resume Page End*/
+
+/*Contacts*/
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 15rem;
+}
+
+.inquiry-button {
+    margin: auto auto;
+    background-color: #7867AF;
+    border-radius: 5%;
+    border: 1px solid #E87F21;
+    font-size: 3rem;
+}
+
+#exit {
+    cursor: pointer;
+}
+
+#exit:hover {
+    color: #E87F21;
+}
+
+.contact-form {
+    margin: auto auto;
+    background-color: #7867AF;
+    border-left: 1rem solid #C7ADF6;
+    text-indent: 1rem;
+    border: 1px solid #E87F21;
+    display: block;
+    transition: all .15s ease-out !important;
+    box-sizing: border-box;
+}
+
+.contact-form h1 {
+    line-height: 3rem;
+    color: #9DDDC4;
+}
+
+.pop-up {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+
+.contact-form p {
+    line-height: 5rem;
+    color: #9DDDC4;
+}
+
+.ask {
+    font-weight: bold;
+}
+
+#window-form {
+    max-width: 550px;
+    width: 100%;
+    background-color: white;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-left: #C7ADF6 2px solid;
+    height: 100%;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-bottom: #C7ADF6 2px solid;
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #E87F21;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(to left, purple, orange, teal, white);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.error-border {
+    border-bottom: red 1px solid;
+}
+
+#success {
+    color: green;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
