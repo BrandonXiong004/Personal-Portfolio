@@ -285,7 +285,7 @@ article h3 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(8%, -50%);
+    transform: translate(9%, 5%);
     width: 34.45rem;
     z-index: 100;
 }
@@ -309,8 +309,20 @@ article h3 {
     transform: translate(-205%, 650%);
     width: 5rem;
     height: 50px;
-    background-color: rgba(255, 0, 0, 1);
+    background-color: transparent;
     z-index: -99;
+}
+
+.fa-angle-left {
+    transform: translate(-8.1rem, 20.7rem);
+    color: #E87F21;
+    font-size: 5rem;
+}
+
+.fa-angle-right {
+    transform: translate(-8.1rem, 20.7rem);
+    color: #E87F21;
+    font-size: 5rem;
 }
 
 .button-container .button:nth-child(1) {
