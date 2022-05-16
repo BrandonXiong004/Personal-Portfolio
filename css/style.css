@@ -140,7 +140,6 @@ header .hero-quote {
 /*Index page Start*/
 .portion-one {
     display: flex;
-    flex-wrap: wrap;
     padding-top: 25rem;
     height: 100%;
 }
@@ -354,6 +353,10 @@ article h3 {
 .project-2-card div p {
     font-size: 1rem;
     color: #9DDDC4;
+}
+
+.project-2-content {
+    max-width: 50rem;
 }
 
 /*Index page end*/
@@ -700,7 +703,7 @@ input[type="submit"] {
     margin-top: 30px;
     width: 90%;
     max-width: 200px;
-    background: linear-gradient(to left, purple, orange, teal, white);
+    background: #C7ADF6;
     color: white;
     font-size: 17px;
     cursor: pointer;
@@ -740,42 +743,54 @@ input[type="submit"] {
     color: #E87F21;
 }
 
+@media (max-width: 1024px) {
+    .personal-image img{
+        margin: auto auto;
+    }
 
+    .focus-goal-passion {
+        font-size: 1.2rem;
+        padding-left: 0.1rem;
+    }
 
+    .focus-goal-passion h2{
+        font-size: 1.2rem;
+        padding-left: 0.1rem;
+    }
 
+    .focus-goal-passion p{
+        font-size: 1.2rem;
+        padding-left: 0.1rem;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1920px) {
     header .hero-quote {
-        padding-top: 6rem;
+        padding-top: 5rem;
+    }
+
+    header .hero-quote h1 {
+        font-size: 3rem;
+    }
+
+    .project-headline h3 {
+        padding-right: 0;
+    }
+
+    .items {
+        transform: none;
+    }
+
+    .project-2-card {
+        left: -11rem;
+        top: 45rem;
+    }
+
+    .award {
+        transform: translate(2rem, 0);
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        color: darkred;
     }
 }
