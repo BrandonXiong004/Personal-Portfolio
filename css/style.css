@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #362735;
+    background-color: #2b2c2b;
 }
 
 main {
@@ -36,7 +36,7 @@ li {
 a {
     background: transparent;
     text-decoration: none;
-    color: #9DDDC4;
+    color: #5aa59a;
 }
 
 nav ul li {
@@ -161,12 +161,12 @@ header .hero-quote {
 
 .focus-goal-passion h2 {
     font-size: 3rem;
-    color: #9DDDC4;
+    color: #5aa59a;
 }
 
 .focus-goal-passion p {
     font-size: 2rem;
-    color: #9DDDC4;
+    color: #5aa59a;
 }
 
 input {
@@ -184,7 +184,7 @@ input {
     text-align: center;
     padding: 5rem;
     padding-bottom: 4rem;
-    color: #9DDDC4;
+    color: #5aa59a;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -314,13 +314,13 @@ article h3 {
 
 .fa-angle-left {
     transform: translate(-8.1rem, 20.7rem);
-    color: #E87F21;
+    color: #d0ad2f;
     font-size: 5rem;
 }
 
 .fa-angle-right {
     transform: translate(-8.1rem, 20.7rem);
-    color: #E87F21;
+    color: #d0ad2f;
     font-size: 5rem;
 }
 
@@ -337,7 +337,7 @@ article h3 {
 }
 
 .items h3 a {
-    color: #E87F21;
+    color: #d0ad2f;
     font-size: 30px;
 }
 
@@ -346,13 +346,13 @@ article h3 {
 }
 
 .project-2-card div h3 {
-    color: #9DDDC4;
+    color: #5aa59a;
     font-size: 3rem;
 }
 
 .project-2-card div p {
     font-size: 1rem;
-    color: #9DDDC4;
+    color: #5aa59a;
 }
 
 .project-2-content {
@@ -679,7 +679,7 @@ input, textarea {
     outline: none;
     resize: none;
     border: none;
-    border-left: #C7ADF6 2px solid;
+    border-left: #d0ad2f 7px solid;
     height: 100%;
 }
 
@@ -703,9 +703,9 @@ input[type="submit"] {
     margin-top: 30px;
     width: 90%;
     max-width: 200px;
-    background: #C7ADF6;
-    color: white;
-    font-size: 17px;
+    background: #1d826c;
+    color: #d0ad2f;
+    font-size: 18px;
     cursor: pointer;
     border-radius: 3px;
 }
@@ -733,14 +733,10 @@ input[type="submit"] {
     margin: auto auto;
 }
 
-.copyright {
-    color: #9DDDC4;
-}
-
 .email,
 .telephone,
 .copyright {
-    color: #E87F21;
+    color: #d0ad2f;
 }
 
 @media (max-width: 1024px) {
@@ -793,4 +789,13 @@ input[type="submit"] {
     body {
         color: darkred;
     }
+}
+
+/*preloader*/
+#preloader {
+    background: #000 url('/imgs/') no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
