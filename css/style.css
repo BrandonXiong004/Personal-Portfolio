@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #2b2c2b;
+    background-color: #aa997e;
 }
 
 main {
@@ -33,12 +33,6 @@ li {
     overflow: hidden;
 }
 
-a {
-    background: transparent;
-    text-decoration: none;
-    color: #5aa59a;
-}
-
 nav ul li {
     z-index: 7;
 }
@@ -66,7 +60,28 @@ ul .sub-menu-content li a:hover {
 }
 
 .logo {
-    font-size: 3rem;
+    /* In case Logo needs to be adjusted */
+    display: flex;
+    overflow: hidden;
+}
+
+.logo-image:hover {
+    filter: invert(100%);
+}
+
+
+
+a {
+    background: transparent;
+    text-decoration: underline;
+    text-underline-offset: 4px ;
+    color: white;
+}
+
+.logo-image {
+    width: 150px;
+    height: 150px;
+    overflow: clip;
 }
 
 .hero-quote {
@@ -80,7 +95,8 @@ ul .sub-menu-content li a:hover {
 
 .hero-quote h1 {
     font-size: 5rem;
-    color: #9dddc4;
+    color: white;
+    text-shadow: black 7px 0px 7px;
 }
 
 
@@ -161,12 +177,12 @@ header .hero-quote {
 
 .focus-goal-passion h2 {
     font-size: 3rem;
-    color: #5aa59a;
+    color: white;
 }
 
 .focus-goal-passion p {
     font-size: 2rem;
-    color: #5aa59a;
+    color: white;
 }
 
 input {
@@ -184,7 +200,7 @@ input {
     text-align: center;
     padding: 5rem;
     padding-bottom: 4rem;
-    color: #5aa59a;
+    color: white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -337,7 +353,7 @@ article h3 {
 }
 
 .items h3 a {
-    color: #d0ad2f;
+    color: white;
     font-size: 30px;
 }
 
@@ -346,13 +362,13 @@ article h3 {
 }
 
 .project-2-card div h3 {
-    color: #5aa59a;
+    color: white;
     font-size: 3rem;
 }
 
 .project-2-card div p {
     font-size: 1rem;
-    color: #5aa59a;
+    color: white;
 }
 
 .project-2-content {
@@ -374,12 +390,12 @@ article h3 {
 
 .works-portion-content h2 {
     font-size: 3rem;
-    color: #9DDDC4;
+    color: white;
 }
 
 .works-portion-content p {
     font-size: 2.5rem;
-    color: #9DDDC4;
+    color: white;
 }
 
 .row {
@@ -396,7 +412,7 @@ article h3 {
     position: relative;
     box-shadow: 1px 3px 5px grey;
     width: 20vw;
-    background-color: #7867AF;
+    background-color: #3C3F58;
 }
 
 .work img {
@@ -406,12 +422,12 @@ article h3 {
 }
 
 .work h4 {
-    color: #fff;
+    color: #F7F6F3;
     opacity: .8;
 }
 
 .work p {
-    color: #9DDDC4
+    color: #6B7DFF;
 }
 
 .about-me-text {
@@ -679,7 +695,7 @@ input, textarea {
     outline: none;
     resize: none;
     border: none;
-    border-left: #d0ad2f 7px solid;
+    border-left: black 7px solid;
     height: 100%;
 }
 
@@ -703,8 +719,8 @@ input[type="submit"] {
     margin-top: 30px;
     width: 90%;
     max-width: 200px;
-    background: #1d826c;
-    color: #d0ad2f;
+    background: white;
+    color: black;
     font-size: 18px;
     cursor: pointer;
     border-radius: 3px;
@@ -718,11 +734,21 @@ input[type="submit"] {
     color: green;
 }
 
+footer {
+    display: flex;
+    padding: 1rem;
+    bottom: 0;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 2rem;
+    gap: 5rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer-name-logo {
@@ -736,7 +762,7 @@ input[type="submit"] {
 .email,
 .telephone,
 .copyright {
-    color: #d0ad2f;
+    color: white;
 }
 
 @media (max-width: 1024px) {
